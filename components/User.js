@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View, Image } from 'react-native';
+import { StyleSheet, Text, View, Image, Button } from 'react-native';
 
 const User = (props) => {
   return (
@@ -7,7 +7,7 @@ const User = (props) => {
        <Image  style={styles.img} source={{uri: 'https://picsum.photos/200'}} style={styles.img} />
        <Text >User is: {props.user && props.user.name} </Text>
     </View>
-  );
+  ); 
 }
 
 const styles = StyleSheet.create({
